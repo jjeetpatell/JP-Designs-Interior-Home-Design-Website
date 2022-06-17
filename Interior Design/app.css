@@ -1,0 +1,150 @@
+html {
+    font-family: "Nunito", sans-serif;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 200;
+    background-color: #ffba08;
+}
+#mainNavbar .navbar-brand {
+    color: #d00000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#mainNavbar .nav-link {
+    color: #080708;
+}
+#mainNavbar .nav-link:hover {
+    color: #3772ff;
+}
+.carousel {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    display: inline-block;
+    border: 8px groove black;
+}
+#imgs {
+    background-color:blanchedalmond;
+    border-left: 22px groove #c1121f;
+    border-right: 22px groove #c1121f;
+} 
+section {
+    background-color: blanchedalmond;
+    border-left: 22px groove #c1121f;
+    border-right: 22px groove #c1121f;
+    padding: 22px;
+}
+#jumbo {
+    border-left: 22px groove #c1121f;
+    border-right: 22px groove #c1121f;
+    background-color: #e5e5e5;
+    margin-bottom: 0;
+}
+#div1 {
+    margin-left: 7px;
+    margin-bottom: 30px;
+    margin-right: 7px;
+}
+#div2 {
+    margin-top: 30px;
+    margin-left: 7px;
+    margin-bottom: 30px;
+    margin-right: 7px;
+}
+#div3 {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.astrodivider {
+    margin:28px auto;
+    width:400px; 
+    max-width: 100%;
+    position:relative;
+  }
+.astrodividermask { 
+    overflow:hidden; height:5px; 
+}
+.astrodividermask:after { 
+    content:''; 
+    display:block; margin:-25px auto 0;
+    width:100%; height:25px;  
+    border-radius:125px / 12px;
+    box-shadow:0 0 8px #fb5607;
+}
+.astrodivider span {
+    width:50px; height:50px; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+    box-shadow:0 2px 4px #fb5607;
+    background:#fff;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #fb5607;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+    color:#fb5607;
+}
+.fa {
+    padding: 12px;
+    font-size: 32px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+}  
+.fa:hover {
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+}  
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+}  
+.fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+}  
+.fa-google {  
+    background: #dd4b39;  
+    color: white;  
+}  
+#bottom {
+    font-size: 22px;
+}
+.links {
+    color:#14213d;
+    text-decoration:none;
+    padding: 5px;
+}
+.links:hover {
+    text-decoration: none;
+    color: #000000;
+    padding: 7px;
+}
+footer {
+    border-bottom: 22px groove #c1121f;
+    border-left: 22px groove #c1121f;
+    border-right: 22px groove #c1121f;   
+}
